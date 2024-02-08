@@ -1,0 +1,7 @@
+query getItems($name: String!) {
+  items(name: $name) {
+    name
+    shortName
+    avg24hPrice
+  }
+}
